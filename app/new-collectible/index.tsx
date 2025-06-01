@@ -26,7 +26,7 @@ const DynamicColumnLayout = ({ data }: ColumnProps) => {
   const rows = chunkArray(data, 2);
 
   return (
-    <View style={{ flexDirection: "column", gap: 4, marginTop: 24, marginBottom: 50 }}>
+    <View style={{ flexDirection: "column", gap: 4, marginTop: 24, marginBottom: 30 }}>
       <CreateCollectibleCard />
       {/* <CollectibleCard key={rowIndex} collectible={collectible} onPress={() => {}} /> */}
 
