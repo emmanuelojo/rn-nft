@@ -81,6 +81,13 @@ export default function TabLayout() {
                 justifyContent: "center",
                 borderRadius: "100%",
                 backgroundColor: "yellow",
+                shadowColor: "yellow",
+                shadowOffset: {
+                  width: 0,
+                  height: 10,
+                },
+                shadowOpacity: 0.4,
+                shadowRadius: 20,
               }}
             >
               <Feather size={24} name="camera" color="black" />
