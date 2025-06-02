@@ -1,10 +1,12 @@
 import { Layout } from "@/constants/Layout";
 import { Feather } from "@expo/vector-icons";
+import * as Haptics from "expo-haptics";
 import { router } from "expo-router";
 import { ImageBackground, Pressable, StyleSheet, Text, View } from "react-native";
 
 const BidCard = () => {
   const handlePress = () => {
+    Haptics.selectionAsync();
     router.push("/new-collectible");
   };
 

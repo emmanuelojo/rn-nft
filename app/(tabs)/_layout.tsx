@@ -17,7 +17,7 @@ export default function TabLayout() {
         tabBarShowLabel: false,
         tabBarStyle: {
           position: "absolute",
-          bottom: 0,
+          bottom: 20,
           left: 16,
           right: 16,
           height: 65,

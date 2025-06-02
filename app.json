@@ -26,6 +26,14 @@
     "plugins": [
       "expo-router",
       [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow NFT to access your camera",
+          "microphonePermission": "Allow NFT to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ],
+      [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
